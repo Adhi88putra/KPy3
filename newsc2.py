@@ -1092,12 +1092,12 @@ def ririnBot(op):
                             elif cmd == 'mention':
                                 group = ririn.getGroup(msg.to)
                                 nama = [contact.mid for contact in group.members]
-                                k = len(nama)//100
+                                k = len(nama)//19
                                 for a in range(k+1):
                                     txt = u''
                                     s=0
                                     b=[]
-                                    for i in group.members[a*100 : (a+1)*100]:
+                                    for i in group.members[a*19 : (a+1)*19]:
                                         b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                                         s += 7
                                         txt += u'@Zero \n'
