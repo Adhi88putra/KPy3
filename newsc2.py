@@ -42,9 +42,9 @@ wait = {
         "coverId": "",
         "pictureStatus": "",
         "statusMessage": ""
-	'detectMention':False,
-	'detectMention2':True,
-	'detectMention3':False,
+	'detectMention': False,
+	'detectMention2': True,
+	'detectMention3': False,
     },
     "mimic": {
         "copy": False,
